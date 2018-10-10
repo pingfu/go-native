@@ -96,7 +96,7 @@
         </Border>
 
         <Border Grid.Row="1" Grid.Column="1" Background="White">
-            <wpf1:ChromiumWebBrowser x:Name="Browser" Address="https://to-do.office.com/tasks/l-24ppnsjjesz/details" Margin="0,0,0,0">
+            <wpf1:ChromiumWebBrowser x:Name="Browser" Address="https://google.com" Margin="0,0,0,0">
                 <i:Interaction.Behaviors>
                     <behaviours:HoverLinkBehaviour x:Name="HoverLinkBehaviour"/>
                 </i:Interaction.Behaviors>
@@ -113,7 +113,7 @@
                      BorderThickness="0" />
 
         <Border Grid.Row="2" Grid.Column="1" Background="White">
-            <wpf1:ChromiumWebBrowser x:Name="Browser2" Address="https://pingfu.net" Margin="0,0,0,0">
+            <wpf1:ChromiumWebBrowser x:Name="Browser2" Address="https://microsoft.com" Margin="0,0,0,0">
                 <i:Interaction.Behaviors />
             </wpf1:ChromiumWebBrowser>
         </Border>
